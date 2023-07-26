@@ -5,13 +5,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-   
-        <p>
-         Hi. Welcome to react app.
-        </p>
         
-        <a>
-          First React app
+        <p>
+          Welcome AUT, To get more click on link.
+        </p>
+        <a
+          className="App-link"
+          href="https://aut.ac.nz"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          aut.ac.nz  
         </a>
       </header>
     </div>
